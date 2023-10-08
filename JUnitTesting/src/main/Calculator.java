@@ -1,6 +1,12 @@
+package main;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class Calculator {
-    
-    public int add(int a, int b) {
+
+     public int add(int a, int b) {
         return a + b;
     }
 
@@ -138,7 +144,7 @@ public class Calculator {
         return sortedArray;
     }
 
-    
+
 
 
     public String concatenateStrings(String str1, String str2) {
